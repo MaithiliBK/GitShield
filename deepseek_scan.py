@@ -6,7 +6,7 @@ def scan_code(file_path):
         code = f.read()
     
     if "eval(" in code:
-        return f"🚨 Vulnerability found in {file_path}: Avoid using eval()!"
+        return f" Vulnerability found in {file_path}: Avoid using eval()!"
     
     return None
 
