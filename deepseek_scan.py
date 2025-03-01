@@ -28,9 +28,9 @@ if __name__ == "__main__":
     vulnerabilities = check_repo_for_vulnerabilities()
     
     if vulnerabilities:
-        print("🚨 Security vulnerabilities detected! Fix before pushing.")
+        print("Security vulnerabilities detected! Fix before pushing.")
         for issue in vulnerabilities:
             print(issue)
         exit(1)  # Block the push
     else:
-        print("✅ No security issues found. Proceeding with push.")
+        print(" No security issues found. Proceeding with push.")
