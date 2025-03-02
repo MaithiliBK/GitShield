@@ -18,7 +18,7 @@ GitShield is a pre-push Git hook designed to enhance the security of your codeba
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/gitshield.git
+   git clone [https://github.com/MaithiliBK/GitShield.git]
    cd gitshield
    ```
 
