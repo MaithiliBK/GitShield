@@ -1,0 +1,3 @@
+API_KEY = "sk_1234567890abcdef1234567890abcdef"
+AWS_ACCESS_KEY_ID = AKIA1234567890ABCDEF
+password = "myPa$$w0rd"
